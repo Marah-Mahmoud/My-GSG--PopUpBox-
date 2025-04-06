@@ -11,7 +11,7 @@ namespace PopUp
         public float maxOpenAngle = 150.0f;
 
         [Header("Scalable Content")]
-        public Transform[] scalableObjects;
+        public Transform[] scalableObjects; 
         private Vector3[] originalScales;
 
         private float xAngle = 0.0f;
